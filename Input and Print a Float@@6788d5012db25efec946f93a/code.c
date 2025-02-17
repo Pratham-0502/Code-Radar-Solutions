@@ -10,7 +10,7 @@ int main() {
     scanf("%f", &number);
 
     // Print the entered float number
-    printf("The float number is: %f\n", number);
+    printf("The float number is: %.2f\n", number);
 
     return 0;
 }
