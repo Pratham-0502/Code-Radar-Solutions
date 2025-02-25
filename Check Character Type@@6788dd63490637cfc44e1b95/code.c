@@ -7,7 +7,7 @@ int main() {
     // Take input
     printf("");
     scanf("%c", &ch);
-    scanf("%d",&d);
+    scanf("%d",d);
     
     // Check if it is a vowel
     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || 
