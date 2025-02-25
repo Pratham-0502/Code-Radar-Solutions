@@ -2,12 +2,12 @@
 
 int main() {
     char ch;
-    int f;
+    int d;
     
     // Take input
     printf("");
     scanf("%c", &ch);
-    scanf("%f",&f);
+    scanf("%d",&d);
     
     // Check if it is a vowel
     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || 
@@ -19,8 +19,8 @@ int main() {
         printf(" Consonant", ch);
     }
     // Check if it is a digit
-    else if (f >= '0' && f <= '9') {
-        printf(" Digit", f);
+    else if (d >= '0' && d <= '9') {
+        printf(" Digit", d);
     }
     // Otherwise, it's a special character
     else {
