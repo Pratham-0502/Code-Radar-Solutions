@@ -2,7 +2,7 @@
 
 int main() {
     char ch;
-    float f;
+    int f;
     
     // Take input
     printf("");
