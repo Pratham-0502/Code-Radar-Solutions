@@ -19,7 +19,7 @@ int main() {
         printf(" Consonant", ch);
     }
     // Check if it is a digit
-    else if (d >= '0' && d <= '9') {
+    else if (d >= 0 && d <= 9) {
         printf(" Digit", d);
     }
     // Otherwise, it's a special character
