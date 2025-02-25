@@ -18,7 +18,7 @@ int main() {
     }
     // Check if it is a digit
     else if (ch >= '0' && ch <= '9') {
-        printf("%c Digit", ch);
+        printf(" Digit", ch);
     }
     // Otherwise, it's a special character
     else {
