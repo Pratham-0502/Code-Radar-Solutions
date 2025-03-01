@@ -27,9 +27,7 @@ int main() {
             printf("Error: Division by zero");
         }
     }
-    else {
-        printf("Error: Invalid operator");
-    }
+    
     
     return 0;
 }
