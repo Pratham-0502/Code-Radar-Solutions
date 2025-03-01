@@ -3,11 +3,12 @@
 int main() {
     float a, b, result;
     char c;
+    
     scanf("%f", &a);
     scanf(" %c", &c);  
     scanf("%f", &b);
     if (c == '+') {
-        result = a+b;
+        result = a + b;
         printf("%f", result);
     }
     else if (c == '-') {
@@ -27,7 +28,9 @@ int main() {
             printf("Error: Division by zero");
         }
     }
-    
+    else {
+        printf("Error: Invalid operator");
+    }
     
     return 0;
 }
