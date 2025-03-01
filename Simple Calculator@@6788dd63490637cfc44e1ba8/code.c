@@ -5,7 +5,7 @@ int main() {
     char c;
     scanf("%d", &a);   
     scanf("%d", &b);    
-    scanf(" %c", &c);  
+    scanf("%c", &c);  
     if (c == '+') {
         // result = a + b;
         printf("%d\n", a+b);  
@@ -18,14 +18,12 @@ int main() {
         // result = a * b;
         printf("%d\n", a*b);
     }
-    else if (c == '/') {
-        if (b != 0) {  
+    else if (c == '/' && b!=0) { 
             // result = a / b;
             printf("%d\n", a/b);
-        }
-        else {
-            printf("error");
-        }
+    }
+    else{
+        printf("error");
     }
     return 0;
 }
