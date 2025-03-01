@@ -18,13 +18,14 @@ int main() {
         // result = a * b;
         printf("%d\n", a*b);
     }
-    else if (c == '/' && b!=0) { 
+    else if (c == '/' && b!=0) {
+        if (b != 0) {  
             // result = a / b;
             printf("%d\n", a/b);
-    else{
+        }
+        else {
             printf("error");
+        }
     }
-    }
-    
     return 0;
 }
