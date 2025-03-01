@@ -3,20 +3,12 @@
 int main() {
     int a, b, result;
     char c;
-    
-    // Read the first number (integer)
-    scanf("%d", &a);
-    
-    // Read the second number (integer)
-    scanf("%d", &b);
-    
-    // Read the operator (with a space before %c to handle newline from the previous input)
-    scanf(" %c", &c);
-    
-    // Perform operation based on the operator
+    scanf("%d", &a);   
+    scanf("%d", &b);    
+    scanf(" %c", &c);  
     if (c == '+') {
         result = a + b;
-        printf("%d\n", result);  // Printing the result as integer
+        printf("%d\n", result);  
     }
     else if (c == '-') {
         result = a - b;
@@ -35,9 +27,5 @@ int main() {
             printf("error");
         }
     }
-    else {
-        printf("Error: Invalid operator\n");
-    }
-    
     return 0;
 }
