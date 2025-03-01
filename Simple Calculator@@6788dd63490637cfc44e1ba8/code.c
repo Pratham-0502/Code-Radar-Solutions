@@ -8,7 +8,7 @@ int main() {
     scanf(" %c", &b);  
     scanf("%f", &c);
     if (c == '+') {
-        result = a + b;
+        result = a b +;
         printf("%f", result);
     }
     else if (c == '-') {
