@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float a, b, result;
+    int a, b, result;
     char c;
     
     // Read the first number
