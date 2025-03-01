@@ -5,10 +5,10 @@ int main() {
     char c;
     
     scanf("%f", &a);
-    scanf(" %c", &b);  
-    scanf("%f", &c);
+    scanf(" %f", &b);  
+    scanf("%c", &c);
     if (c == '+') {
-        result = a b +;
+        result = a b + ;
         printf("%f", result);
     }
     else if (c == '-') {
