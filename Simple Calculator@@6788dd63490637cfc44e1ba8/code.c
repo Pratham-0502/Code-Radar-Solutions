@@ -5,8 +5,8 @@ int main() {
     char c;
     
     scanf("%f", &a);
-    scanf(" %c", &c);  
-    scanf("%f", &b);
+    scanf(" %c", &b);  
+    scanf("%f", &c);
     if (c == '+') {
         result = a + b;
         printf("%f", result);
