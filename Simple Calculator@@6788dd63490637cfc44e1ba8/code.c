@@ -4,11 +4,11 @@ int main() {
     int a, b, result;
     char c;
     
-    // Read the first number
-    scanf("%f", &a);
+    // Read the first number (integer)
+    scanf("%d", &a);
     
-    // Read the second number
-    scanf("%f", &b);
+    // Read the second number (integer)
+    scanf("%d", &b);
     
     // Read the operator (with a space before %c to handle newline from the previous input)
     scanf(" %c", &c);
@@ -16,20 +16,20 @@ int main() {
     // Perform operation based on the operator
     if (c == '+') {
         result = a + b;
-        printf("%f", result);  // Formatting to print 2 decimal places
+        printf("%d\n", result);  // Printing the result as integer
     }
     else if (c == '-') {
         result = a - b;
-        printf("%.2f\n", result);
+        printf("%d\n", result);
     }
     else if (c == '*') {
         result = a * b;
-        printf("%.2f\n", result);
+        printf("%d\n", result);
     }
     else if (c == '/') {
         if (b != 0) {  
             result = a / b;
-            printf("%.2f\n", result);
+            printf("%d\n", result);
         }
         else {
             printf("Error: Division by zero\n");
