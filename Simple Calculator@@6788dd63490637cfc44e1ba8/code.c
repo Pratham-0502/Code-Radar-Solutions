@@ -32,7 +32,7 @@ int main() {
             printf("%d\n", result);
         }
         else {
-            printf("Error: Division by zero\n");
+            printf("error");
         }
     }
     else {
