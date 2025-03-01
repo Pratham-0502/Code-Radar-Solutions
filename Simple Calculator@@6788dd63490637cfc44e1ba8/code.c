@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, result;
+    float a, b, result;
     char c;
     
     // Read the first number
@@ -16,7 +16,7 @@ int main() {
     // Perform operation based on the operator
     if (c == '+') {
         result = a + b;
-        printf("%.2f\n", result);  // Formatting to print 2 decimal places
+        printf("%f", result);  // Formatting to print 2 decimal places
     }
     else if (c == '-') {
         result = a - b;
