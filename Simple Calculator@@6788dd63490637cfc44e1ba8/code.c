@@ -1,21 +1,35 @@
-#include<stdio.h>
-int main(){
-    float a,b;
+#include <stdio.h>
+
+int main() {
+    float a, b, result;
     char c;
-    scanf("%f",&a);
-    scanf("%f",&b);
-    scanf("%c",&c);
-    if(c=='+'){
-        printf("%f",a+b);
+    scanf("%f", &a);
+    scanf(" %c", &c);  
+    scanf("%f", &b);
+    if (c == '+') {
+        result = a + b;
+        printf("%f", result);
     }
-    else if(c=='-'){
-        printf("%f",a-b);
+    else if (c == '-') {
+        result = a - b;
+        printf("%f", result);
     }
-    else if(c=='*'){
-        printf("%f",a*b);
+    else if (c == '*') {
+        result = a * b;
+        printf("%f", result);
     }
-    else{
-        printf("%f",a/b);
+    else if (c == '/') {
+        if (b != 0) {  
+            result = a / b;
+            printf("%f", result);
+        }
+        else {
+            printf("Error: Division by zero");
+        }
     }
+    else {
+        printf("Error: Invalid operator");
+    }
+    
     return 0;
 }
