@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int a, b;
+    int a, b, result;
     char c;
     scanf("%d", &a);   
     scanf("%d", &b);    
-    scanf("%c", &c);  
+    scanf(" %c", &c);  
     if (c == '+') {
         // result = a + b;
         printf("%d\n", a+b);  
